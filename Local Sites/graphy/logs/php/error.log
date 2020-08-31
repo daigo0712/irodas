@@ -1,0 +1,147 @@
+[19-Aug-2020 01:00:01 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.wordpress.org/support/forums/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /Users/daigo/Local Sites/graphy/app/public/wp-includes/update.php on line 168
+[19-Aug-2020 01:00:01 UTC] PHP Stack trace:
+[19-Aug-2020 01:00:01 UTC] PHP   1. {main}() /Users/daigo/Local Sites/graphy/app/public/wp-cron.php:0
+[19-Aug-2020 01:00:01 UTC] PHP   2. do_action_ref_array() /Users/daigo/Local Sites/graphy/app/public/wp-cron.php:138
+[19-Aug-2020 01:00:01 UTC] PHP   3. WP_Hook->do_action() /Users/daigo/Local Sites/graphy/app/public/wp-includes/plugin.php:544
+[19-Aug-2020 01:00:01 UTC] PHP   4. WP_Hook->apply_filters() /Users/daigo/Local Sites/graphy/app/public/wp-includes/class-wp-hook.php:311
+[19-Aug-2020 01:00:01 UTC] PHP   5. wp_version_check() /Users/daigo/Local Sites/graphy/app/public/wp-includes/class-wp-hook.php:287
+[19-Aug-2020 01:00:01 UTC] PHP   6. trigger_error() /Users/daigo/Local Sites/graphy/app/public/wp-includes/update.php:168
+[19-Aug-2020 10:13:53 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.wordpress.org/support/forums/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /Users/daigo/Local Sites/graphy/app/public/wp-includes/update.php on line 168
+[19-Aug-2020 10:13:54 UTC] PHP Stack trace:
+[19-Aug-2020 10:13:54 UTC] PHP   1. {main}() /Users/daigo/Local Sites/graphy/app/public/wp-cron.php:0
+[19-Aug-2020 10:13:54 UTC] PHP   2. do_action_ref_array() /Users/daigo/Local Sites/graphy/app/public/wp-cron.php:138
+[19-Aug-2020 10:13:54 UTC] PHP   3. WP_Hook->do_action() /Users/daigo/Local Sites/graphy/app/public/wp-includes/plugin.php:544
+[19-Aug-2020 10:13:54 UTC] PHP   4. WP_Hook->apply_filters() /Users/daigo/Local Sites/graphy/app/public/wp-includes/class-wp-hook.php:311
+[19-Aug-2020 10:13:54 UTC] PHP   5. wp_version_check() /Users/daigo/Local Sites/graphy/app/public/wp-includes/class-wp-hook.php:287
+[19-Aug-2020 10:13:54 UTC] PHP   6. trigger_error() /Users/daigo/Local Sites/graphy/app/public/wp-includes/update.php:168
+[24-Aug-2020 07:26:51 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/functions.php on line 266
+[24-Aug-2020 07:28:19 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/functions.php on line 266
+[24-Aug-2020 07:28:51 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/functions.php on line 266
+[24-Aug-2020 07:29:30 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/functions.php on line 266
+[24-Aug-2020 07:29:34 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/functions.php on line 266
+[24-Aug-2020 07:29:34 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/functions.php on line 266
+[24-Aug-2020 07:38:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function graphy_logo() in /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/header.php:25
+Stack trace:
+#0 /Users/daigo/Local Sites/graphy/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/daigo/Local Sites/graphy/app/public/wp-includes/template.php(676): load_template('/Users/daigo/Lo...', true, Array)
+#2 /Users/daigo/Local Sites/graphy/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/home.php(10): get_header()
+#4 /Users/daigo/Local Sites/graphy/app/public/wp-includes/template-loader.php(106): include('/Users/daigo/Lo...')
+#5 /Users/daigo/Local Sites/graphy/app/public/wp-blog-header.php(19): require_once('/Users/daigo/Lo...')
+#6 /Users/daigo/Local Sites/graphy/app/public/index.php(17): require('/Users/daigo/Lo...')
+#7 {main}
+  thrown in /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/header.php on line 25
+[24-Aug-2020 07:39:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function graphy_logo() in /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/header.php:25
+Stack trace:
+#0 /Users/daigo/Local Sites/graphy/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/daigo/Local Sites/graphy/app/public/wp-includes/template.php(676): load_template('/Users/daigo/Lo...', true, Array)
+#2 /Users/daigo/Local Sites/graphy/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/home.php(10): get_header()
+#4 /Users/daigo/Local Sites/graphy/app/public/wp-includes/template-loader.php(106): include('/Users/daigo/Lo...')
+#5 /Users/daigo/Local Sites/graphy/app/public/wp-blog-header.php(19): require_once('/Users/daigo/Lo...')
+#6 /Users/daigo/Local Sites/graphy/app/public/index.php(17): require('/Users/daigo/Lo...')
+#7 {main}
+  thrown in /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/header.php on line 25
+[24-Aug-2020 07:40:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function graphy_logo() in /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/header.php:25
+Stack trace:
+#0 /Users/daigo/Local Sites/graphy/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/daigo/Local Sites/graphy/app/public/wp-includes/template.php(676): load_template('/Users/daigo/Lo...', true, Array)
+#2 /Users/daigo/Local Sites/graphy/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/home.php(10): get_header()
+#4 /Users/daigo/Local Sites/graphy/app/public/wp-includes/template-loader.php(106): include('/Users/daigo/Lo...')
+#5 /Users/daigo/Local Sites/graphy/app/public/wp-blog-header.php(19): require_once('/Users/daigo/Lo...')
+#6 /Users/daigo/Local Sites/graphy/app/public/index.php(17): require('/Users/daigo/Lo...')
+#7 {main}
+  thrown in /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/header.php on line 25
+[24-Aug-2020 07:58:05 UTC] PHP Parse error:  syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/functions.php on line 286
+[24-Aug-2020 07:58:22 UTC] PHP Parse error:  syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/functions.php on line 286
+[24-Aug-2020 08:06:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function graphy_logo() in /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/header.php:25
+Stack trace:
+#0 /Users/daigo/Local Sites/graphy/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/daigo/Local Sites/graphy/app/public/wp-includes/template.php(676): load_template('/Users/daigo/Lo...', true, Array)
+#2 /Users/daigo/Local Sites/graphy/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/home.php(10): get_header()
+#4 /Users/daigo/Local Sites/graphy/app/public/wp-includes/template-loader.php(106): include('/Users/daigo/Lo...')
+#5 /Users/daigo/Local Sites/graphy/app/public/wp-blog-header.php(19): require_once('/Users/daigo/Lo...')
+#6 /Users/daigo/Local Sites/graphy/app/public/index.php(17): require('/Users/daigo/Lo...')
+#7 {main}
+  thrown in /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/header.php on line 25
+[24-Aug-2020 08:06:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function graphy_logo() in /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/header.php:25
+Stack trace:
+#0 /Users/daigo/Local Sites/graphy/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/daigo/Local Sites/graphy/app/public/wp-includes/template.php(676): load_template('/Users/daigo/Lo...', true, Array)
+#2 /Users/daigo/Local Sites/graphy/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/home.php(10): get_header()
+#4 /Users/daigo/Local Sites/graphy/app/public/wp-includes/template-loader.php(106): include('/Users/daigo/Lo...')
+#5 /Users/daigo/Local Sites/graphy/app/public/wp-blog-header.php(19): require_once('/Users/daigo/Lo...')
+#6 /Users/daigo/Local Sites/graphy/app/public/index.php(17): require('/Users/daigo/Lo...')
+#7 {main}
+  thrown in /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/header.php on line 25
+[24-Aug-2020 08:06:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function graphy_logo() in /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/header.php:25
+Stack trace:
+#0 /Users/daigo/Local Sites/graphy/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/daigo/Local Sites/graphy/app/public/wp-includes/template.php(676): load_template('/Users/daigo/Lo...', true, Array)
+#2 /Users/daigo/Local Sites/graphy/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/home.php(10): get_header()
+#4 /Users/daigo/Local Sites/graphy/app/public/wp-includes/template-loader.php(106): include('/Users/daigo/Lo...')
+#5 /Users/daigo/Local Sites/graphy/app/public/wp-blog-header.php(19): require_once('/Users/daigo/Lo...')
+#6 /Users/daigo/Local Sites/graphy/app/public/index.php(17): require('/Users/daigo/Lo...')
+#7 {main}
+  thrown in /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/header.php on line 25
+[24-Aug-2020 08:06:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function graphy_logo() in /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/header.php:25
+Stack trace:
+#0 /Users/daigo/Local Sites/graphy/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/daigo/Local Sites/graphy/app/public/wp-includes/template.php(676): load_template('/Users/daigo/Lo...', true, Array)
+#2 /Users/daigo/Local Sites/graphy/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/home.php(10): get_header()
+#4 /Users/daigo/Local Sites/graphy/app/public/wp-includes/template-loader.php(106): include('/Users/daigo/Lo...')
+#5 /Users/daigo/Local Sites/graphy/app/public/wp-blog-header.php(19): require_once('/Users/daigo/Lo...')
+#6 /Users/daigo/Local Sites/graphy/app/public/index.php(17): require('/Users/daigo/Lo...')
+#7 {main}
+  thrown in /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/header.php on line 25
+[24-Aug-2020 08:06:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function graphy_logo() in /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/header.php:25
+Stack trace:
+#0 /Users/daigo/Local Sites/graphy/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/daigo/Local Sites/graphy/app/public/wp-includes/template.php(676): load_template('/Users/daigo/Lo...', true, Array)
+#2 /Users/daigo/Local Sites/graphy/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/home.php(10): get_header()
+#4 /Users/daigo/Local Sites/graphy/app/public/wp-includes/template-loader.php(106): include('/Users/daigo/Lo...')
+#5 /Users/daigo/Local Sites/graphy/app/public/wp-blog-header.php(19): require_once('/Users/daigo/Lo...')
+#6 /Users/daigo/Local Sites/graphy/app/public/index.php(17): require('/Users/daigo/Lo...')
+#7 {main}
+  thrown in /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/header.php on line 25
+[24-Aug-2020 08:06:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function graphy_logo() in /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/header.php:25
+Stack trace:
+#0 /Users/daigo/Local Sites/graphy/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/daigo/Local Sites/graphy/app/public/wp-includes/template.php(676): load_template('/Users/daigo/Lo...', true, Array)
+#2 /Users/daigo/Local Sites/graphy/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/home.php(10): get_header()
+#4 /Users/daigo/Local Sites/graphy/app/public/wp-includes/template-loader.php(106): include('/Users/daigo/Lo...')
+#5 /Users/daigo/Local Sites/graphy/app/public/wp-blog-header.php(19): require_once('/Users/daigo/Lo...')
+#6 /Users/daigo/Local Sites/graphy/app/public/index.php(17): require('/Users/daigo/Lo...')
+#7 {main}
+  thrown in /Users/daigo/Local Sites/graphy/app/public/wp-content/themes/graphy/header.php on line 25
+[31-Aug-2020 09:02:49 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.wordpress.org/support/forums/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /Users/daigo/Local Sites/graphy/app/public/wp-includes/update.php on line 168
+[31-Aug-2020 09:02:49 UTC] PHP Stack trace:
+[31-Aug-2020 09:02:49 UTC] PHP   1. {main}() /Users/daigo/Local Sites/graphy/app/public/wp-cron.php:0
+[31-Aug-2020 09:02:49 UTC] PHP   2. do_action_ref_array() /Users/daigo/Local Sites/graphy/app/public/wp-cron.php:138
+[31-Aug-2020 09:02:49 UTC] PHP   3. WP_Hook->do_action() /Users/daigo/Local Sites/graphy/app/public/wp-includes/plugin.php:544
+[31-Aug-2020 09:02:49 UTC] PHP   4. WP_Hook->apply_filters() /Users/daigo/Local Sites/graphy/app/public/wp-includes/class-wp-hook.php:311
+[31-Aug-2020 09:02:49 UTC] PHP   5. wp_version_check() /Users/daigo/Local Sites/graphy/app/public/wp-includes/class-wp-hook.php:287
+[31-Aug-2020 09:02:49 UTC] PHP   6. trigger_error() /Users/daigo/Local Sites/graphy/app/public/wp-includes/update.php:168
+[31-Aug-2020 09:02:49 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.wordpress.org/support/forums/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /Users/daigo/Local Sites/graphy/app/public/wp-includes/update.php on line 403
+[31-Aug-2020 09:02:49 UTC] PHP Stack trace:
+[31-Aug-2020 09:02:49 UTC] PHP   1. {main}() /Users/daigo/Local Sites/graphy/app/public/wp-cron.php:0
+[31-Aug-2020 09:02:49 UTC] PHP   2. do_action_ref_array() /Users/daigo/Local Sites/graphy/app/public/wp-cron.php:138
+[31-Aug-2020 09:02:49 UTC] PHP   3. WP_Hook->do_action() /Users/daigo/Local Sites/graphy/app/public/wp-includes/plugin.php:544
+[31-Aug-2020 09:02:49 UTC] PHP   4. WP_Hook->apply_filters() /Users/daigo/Local Sites/graphy/app/public/wp-includes/class-wp-hook.php:311
+[31-Aug-2020 09:02:49 UTC] PHP   5. wp_update_plugins() /Users/daigo/Local Sites/graphy/app/public/wp-includes/class-wp-hook.php:287
+[31-Aug-2020 09:02:49 UTC] PHP   6. trigger_error() /Users/daigo/Local Sites/graphy/app/public/wp-includes/update.php:403
+[31-Aug-2020 09:02:49 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.wordpress.org/support/forums/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /Users/daigo/Local Sites/graphy/app/public/wp-includes/update.php on line 607
+[31-Aug-2020 09:02:49 UTC] PHP Stack trace:
+[31-Aug-2020 09:02:49 UTC] PHP   1. {main}() /Users/daigo/Local Sites/graphy/app/public/wp-cron.php:0
+[31-Aug-2020 09:02:49 UTC] PHP   2. do_action_ref_array() /Users/daigo/Local Sites/graphy/app/public/wp-cron.php:138
+[31-Aug-2020 09:02:49 UTC] PHP   3. WP_Hook->do_action() /Users/daigo/Local Sites/graphy/app/public/wp-includes/plugin.php:544
+[31-Aug-2020 09:02:49 UTC] PHP   4. WP_Hook->apply_filters() /Users/daigo/Local Sites/graphy/app/public/wp-includes/class-wp-hook.php:311
+[31-Aug-2020 09:02:49 UTC] PHP   5. wp_update_themes() /Users/daigo/Local Sites/graphy/app/public/wp-includes/class-wp-hook.php:287
+[31-Aug-2020 09:02:49 UTC] PHP   6. trigger_error() /Users/daigo/Local Sites/graphy/app/public/wp-includes/update.php:607
